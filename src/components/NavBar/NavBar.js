@@ -7,7 +7,7 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <Fragment>
-      <div className="position-sticky">
+      <div className="container-fluid m-0 p-0 position-sticky" style={{top: 0, backgroundColor: "white"}}>
         <nav className="navbar navbar-expand-lg align-items-center">
           <div className="container-fluid">
             <Link className="navbar-brand text-uppercase" id="air-brand" to="/"><FontAwesomeIcon icon={faLocationArrow} />Air Pacific</Link>

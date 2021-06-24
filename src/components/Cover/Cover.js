@@ -1,6 +1,5 @@
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
 import { Fragment } from 'react';
 import { coverImage, backOpacity, heightFull } from "./Cover.module.css";
 
@@ -15,7 +14,7 @@ const Cover = () => {
                 <div className="d-flex justify-content-between">
                   <div className=""></div>
                   <div className="text-end p-3">
-                    <img src="https://c.ekstatic.net/ecl/logos/emirates/emirates-fly-better-white.svg?h=ASXr1bEvRLq6igZoljExYw" class="w-50" alt="Fly better" />
+                    <img src="https://c.ekstatic.net/ecl/logos/emirates/emirates-fly-better-white.svg?h=ASXr1bEvRLq6igZoljExYw" className="w-50" alt="Fly better" />
                   </div>
                 </div>
                 <div className="text-center text-white">
@@ -24,11 +23,11 @@ const Cover = () => {
                   </h2>
                 </div>
                 <div className="d-flex justify-content-center pb-3">
-                  <Link to="#service">
+                  <a href="#service">
                     <div className="d-flex align-items-center text-white py-2 px-3 border-3 rounded-circle border">
                       <FontAwesomeIcon icon={faChevronDown} style={{fontSize: '24px'}} />
                     </div>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
