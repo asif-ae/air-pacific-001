@@ -1,0 +1,9 @@
+.navbar-menu-style,
+.navbar-menu-style:focus,
+.navbar-menu-style:focus-visible,
+.navbar-menu-style:focus-within {
+  outline: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  color: navy;
+}
