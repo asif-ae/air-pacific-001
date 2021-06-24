@@ -1,0 +1,25 @@
+[{
+  "id": 1,
+  "city": "Chittagong",
+  "country": "Bangladesh",
+  "economy": "84.95",
+  "business": "104.39",
+  "thumbnail": "https://c.ekstatic.net/shared/images/destination/v1/airports/DAC/810x270.jpg",
+  "image": "https://c.ekstatic.net/shared/images/destination/v1/airports/DAC/1360x454.jpg"
+}, {
+  "id": 2,
+  "city": "Delhi",
+  "country": "India",
+  "economy": "92.28",
+  "business": "132.83",
+  "thumbnail": "https://c.ekstatic.net/shared/images/destination/v1/airports/DEL/810x270.jpg",
+  "image": "https://c.ekstatic.net/shared/images/destination/v1/airports/DEL/1360x454.jpg"
+}, {
+  "id": 3,
+  "city": "New York",
+  "country": "USA",
+  "economy": "955.94",
+  "business": "1245.35",
+  "thumbnail": "https://c.ekstatic.net/shared/images/destination/v1/airports/NYC/810x270.jpg",
+  "image": "https://c.ekstatic.net/shared/images/destination/v1/airports/NYC/1360x454.jpg"
+}]
