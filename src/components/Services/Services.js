@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import HomeCards from '../HomeCards/HomeCards';
 
-const Services = () => {
+const Services = ({cityData, setCityData}) => {
   return (
     <Fragment>
       <div className="container py-5" id="service">
@@ -9,7 +9,7 @@ const Services = () => {
           <h4 className="p-3">Featured destinations from <b>Dhaka</b></h4>
         </div>
         <div className="service-cards">
-          <HomeCards></HomeCards>
+          <HomeCards cityData={cityData} setCityData={setCityData}></HomeCards>
         </div>
       </div>
     </Fragment>

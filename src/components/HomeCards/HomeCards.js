@@ -1,15 +1,22 @@
 import { Fragment } from 'react';
 import flightData from "../../data/flightData.json";
+import { Link } from "react-router-dom";
 import "./HomeCard.css";
 
-const HomeCards = () => {
+const HomeCards = ({cityData, setCityData}) => {
+  const clickHandler = (info) => {
+    setCityData(info);
+  }
   return (
     <Fragment>
       <div className="a">
         <div className="row m-0 p-0">
           {
             flightData.map(theData => {
-              const { id, city, country, economy, business, thumbnail } = theData;
+              const { id, city, country, economy, business, thumbnail, image } = theData;
+              const cityInfo = {
+                id, city, country, economy, business, thumbnail, image
+              }
               return (
                 <div className="col-lg-4 col-sm-6 col-xs-12" key={id}>
                   <div className="py-2">
@@ -32,7 +39,9 @@ const HomeCards = () => {
                           <div className="a" id="air-brand"><h5>${business}</h5></div>
                         </div>
                         <div className="text-center pt-3 pb-2">
-                          <button className="btn btn-success">Book Now!</button>
+                          <Link to={`/city/${city}`}>
+                            <button className="btn btn-success" onClick={() => clickHandler(cityInfo)}>Book Now!</button>
+                          </Link>
                         </div>
                       </div>
                     </div>

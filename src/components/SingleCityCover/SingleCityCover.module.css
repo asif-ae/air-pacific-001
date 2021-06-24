@@ -1,0 +1,18 @@
+.coverImage {
+  min-height: 520px;
+  max-height: 520px;
+  /* background-image: url('https://p-airnz.com/cms/assets/US/3000x1792/PAX-homepage-PE-May18-3000x1792__ScaleHeightWzk2MF0_ScaleWidthWzI4ODBd.webp'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.backOpacity {
+  background-color: rgba(0, 0, 128, 0.4);
+}
+
+.heightFull {
+  min-height: 520px;
+  max-height: 520px;
+}
